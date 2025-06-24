@@ -1,11 +1,10 @@
 schemaVersion: "1.2"
-name: dein-component-name
+name: backend
 services:
-  - name: rest-api-be2
+  - name: api
     type: REST
     properties:
       basePath: /
       port: 8000
     networkVisibilities:
-      - Project
       - Public
